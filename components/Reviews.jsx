@@ -43,7 +43,7 @@ function Reviews() {
         </div>
       </div>
       <div className="py-10">
-        <div className="bg-[#131725] text-3xl text-[#D5D5FF] rounded-2xl py-14 px-20">
+        <div className="bg-[#131725] text-3xl text-[#D5D5FF] rounded-3xl py-14 px-20">
           <h1 className="font-semibold leading-[55px]">
             {reviews[count].name}
           </h1>
