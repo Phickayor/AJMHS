@@ -22,9 +22,9 @@ function AboutUs() {
               className="relative h-96 w-full rounded-2xl object-cover opacity-50"
             />
             <div className="absolute h-full flex flex-col justify-center w-full">
-              <div className="text-white space-y-8 mx-auto w-9/12">
+              <div className="text-white space-y-8 px-20 w-9/12">
                 <h1 className="font-semibold text-5xl">{service.name}</h1>
-                <p className="text-2xl leading-relaxed">{service.desc}</p>
+                <p className="text-2xl leading-relaxed font-light">{service.desc}</p>
               </div>
             </div>
           </div>
