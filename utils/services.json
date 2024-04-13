@@ -1,0 +1,32 @@
+[
+  {
+    "image": "/images/image1.jpg",
+    "name": "Mental Nursing",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, temporibus laudantium, quam voluptate et tempore nesciunt? Rem, eum iste."
+  },
+  {
+    "image": "/images/image2.jpg",
+    "name": "Mobile Nursing",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, temporibus laudantium, quam voluptate et tempore nesciunt? Rem, eum iste."
+  },
+  {
+    "image": "/images/image3.jpg",
+    "name": "Home Embambling",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, temporibus laudantium, quam voluptate et tempore nesciunt? Rem, eum iste."
+  },
+  {
+    "image": "/images/image4.jpg",
+    "name": "Ambulance Services",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, temporibus laudantium, quam voluptate et tempore nesciunt? Rem, eum iste."
+  },
+  {
+    "image": "/images/image5.jpg",
+    "name": "Geriatric Nursing",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, temporibus laudantium, quam voluptate et tempore nesciunt? Rem, eum iste."
+  },
+  {
+    "image": "/images/image6.jpg",
+    "name": "Recruitment of registered nurses",
+    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, temporibus laudantium, quam voluptate et tempore nesciunt? Rem, eum iste."
+  }
+]

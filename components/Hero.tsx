@@ -3,7 +3,7 @@ import { FaArrowDown } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div className="text-center py-24">
+    <div className="text-center py-24 mx-auto w-10/12">
       <div className="mx-auto w-3/5 flex flex-col gap-5">
         <h1 className="text-[#8383FF] text-5xl font-medium leading-[50px]">
           Experience Care&nbsp;
