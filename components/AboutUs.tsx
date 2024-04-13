@@ -2,7 +2,7 @@ import React from "react";
 import services from "@/utils/services.json";
 function AboutUs() {
   return (
-    <div className="mx-auto w-10/12 relative space-y-6">
+    <div className="mx-auto w-10/12 space-y-6">
       <div className=" flex flex-col gap-6">
         <h1 className="font-semibold text-3xl tracking-[0.3em]">
           Get to know us better
@@ -13,9 +13,9 @@ function AboutUs() {
           proposition.
         </p>
       </div>
-      <div className="absolute left-0 flex gap-8 overflow-auto w-full">
+      <div className="absolute flex gap-8 overflow-auto w-full">
         {services.map((service, index) => (
-          <div className="flex min-w-full bg-black rounded-2xl" key={index}>
+          <div className="flex min-w-[80%] bg-black rounded-2xl" key={index}>
             <img
               src={service.image}
               alt=""
