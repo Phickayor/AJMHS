@@ -2,7 +2,7 @@ import AboutUs from "@/components/AboutUs";
 import Gallery from "@/components/Gallery";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Image from "next/image";
+import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       <div className="mt-96">
         <Gallery />
       </div>
+      <Reviews/>
     </div>
   );
 }
