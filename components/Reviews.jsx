@@ -29,13 +29,13 @@ function Reviews() {
           <div className="flex space-x-5 lg:space-x-10 justify-center text-white">
             <div
               onClick={HandleDecrement}
-              className="bg-[#8383FF] cursor-pointer w-10 h-10 text-center rounded-full flex flex-col justify-center"
+              className="bg-[#8383FF] hover:bg-[#8383CC] duration-200 cursor-pointer w-10 h-10 text-center rounded-full flex flex-col justify-center"
             >
               <FaAngleLeft className="self-center" />
             </div>
             <div
               onClick={HandleIncrement}
-              className="bg-[#8383FF] cursor-pointer w-10 h-10 text-center rounded-full flex flex-col justify-center"
+              className="bg-[#8383FF] hover:bg-[#8383CC] duration-200 cursor-pointer w-10 h-10 text-center rounded-full flex flex-col justify-center"
             >
               <FaAngleRight className="self-center" />
             </div>

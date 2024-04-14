@@ -26,7 +26,7 @@ function Contact() {
           </div>
           <button
             type="submit"
-            className="bg-[#8383FF] text-white text-2xl font-light self-center py-3 px-16 rounded-full"
+            className="bg-[#8383FF] hover:bg-[#8383CC] duration-200 text-white text-2xl font-light self-center py-3 px-16 rounded-full"
           >
             Submit
           </button>
