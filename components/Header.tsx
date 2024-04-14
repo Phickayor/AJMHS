@@ -1,5 +1,4 @@
 import React from "react";
-import { FaBars } from "react-icons/fa";
 
 function Header() {
   return (
@@ -10,7 +9,7 @@ function Header() {
           alt="Amen Jet"
           className="w-12 md:w-16 h-12 md:h-16"
         />
-        <h1 className="hidden md:block self-center text-xl xl:text-2xl">
+        <h1 className="self-center md:text-xl xl:text-2xl">
           Amen Jet Medical Health Services
         </h1>
       </div>
@@ -22,7 +21,6 @@ function Header() {
         <li>About us</li>
         <li>Contact</li>
       </ul>
-      <FaBars className="lg:hidden self-center cursor-pointer text-2xl" />
     </div>
   );
 }

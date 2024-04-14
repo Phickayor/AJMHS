@@ -2,12 +2,12 @@ import React from "react";
 import services from "@/utils/services.json";
 function AboutUs() {
   return (
-    <div className="mx-auto w-10/12 space-y-10">
+    <div className="mx-auto relative w-10/12 space-y-10">
       <div className=" flex flex-col gap-4 lg:gap-6">
         <h1 className="font-semibold text-xl tracking-[0.3em] md:text-2xl md:tracking-widest lg:text-3xl lg:leading-[55px] lg:tracking-[0.3em]">
           Get to know us better
         </h1>
-        <p className="text-[131725] font-light text-xl leading-loose lg:text-2xl lg:leading-relaxed xl:text-3xl xl:leading-[55px]">
+        <p className="text-[131725] font-light text-lg leading-loose md:text-xl md:leading-loose lg:text-2xl lg:leading-relaxed xl:text-3xl xl:leading-[55px]">
           Leverage agile frameworks to provide a robust synopsis for strategy
           foster collaborative thinking to further the overall value
           proposition.
