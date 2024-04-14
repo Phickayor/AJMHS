@@ -8,11 +8,11 @@ import Reviews from "@/components/Reviews";
 
 export default function Home() {
   return (
-    <div className="py-12">
+    <div className="py-5 xl:py-12">
       <Header />
       <Hero />
       <AboutUs />
-      <div className="mt-96">
+      <div className="mt-72 md:mt-96">
         <Gallery />
       </div>
       <Reviews />

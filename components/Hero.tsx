@@ -3,19 +3,23 @@ import { FaArrowDown } from "react-icons/fa";
 
 function Hero() {
   return (
-    <div className="text-center py-24 mx-auto w-10/12">
-      <div className="mx-auto w-3/5 flex flex-col gap-5">
-        <h1 className="text-[#8383FF] text-5xl font-medium leading-[50px]">
-          Experience Care&nbsp;
-          <span className="text-[#0000AB]">Beyond Expectations</span>
-        </h1>
-        <p className="font-extralight text-2xl">
-          Transforming Lives, One Patient at a Time
-        </p>
-        <button className="mx-auto w-fit rounded-full bg-[#00005A] text-white px-5 py-4 flex gap-10 justify-between">
-          <span className="self-center">Start your Journey </span>
-          <div className="bg-white self-center rounded-full p-2">
-            <FaArrowDown className="text-center text-black" />
+    <div className="text-center py-6 md:py-12 xl:py-24 mx-auto w-11/12 xl:w-10/12">
+      <div className="mx-auto lg:w-4/5 xl:w-3/5 flex flex-col gap-5">
+        <div className="flex flex-col gap-2">
+          <h1 className="text-[#8383FF] text-2xl md:text-4xl md:leading-loose lg:text-5xl font-medium lg:leading-[50px]">
+            Experience Care&nbsp;
+            <span className="text-[#0000AB]">Beyond Expectations</span>
+          </h1>
+          <p className="font-extralight text-md md:text-2xl">
+            Transforming Lives, One Patient at a Time
+          </p>
+        </div>
+        <button className="mx-auto group w-fit rounded-full bg-[#00005A] text-white px-5 py-4 flex gap-6 md:gap-10 justify-between">
+          <span className="self-center text-sm md:text-md font-extralight">
+            Start your Journey{" "}
+          </span>
+          <div className="bg-white self-center rounded-full p-1 md:p-2">
+            <FaArrowDown className="text-center text-xs md:text-md text-black group-hover:animate-bounce" />
           </div>
         </button>
       </div>
