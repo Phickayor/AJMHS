@@ -26,7 +26,7 @@ function Reviews() {
           What our customer says
         </h1>
         <div className="flex gap-5 self-center">
-          <div className="flex space-x-5 lg:space-x-10 justify-center text-white">
+          <div className="flex space-x-5 justify-center text-white">
             <div
               onClick={HandleDecrement}
               className="bg-[#8383FF] hover:bg-[#8383CC] duration-200 cursor-pointer w-10 h-10 text-center rounded-full flex flex-col justify-center"
