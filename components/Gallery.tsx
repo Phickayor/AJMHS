@@ -16,12 +16,12 @@ function Gallery() {
           <img
             src="/images/image5.jpg"
             alt=""
-            className="w-full h-full max-h-60 object-cover"
+            className="w-full h-full max-h-60 2xl:max-h-96 object-cover"
           />
           <img
             src="/images/image4.jpg"
             alt=""
-            className="w-full h-full max-h-60 object-cover"
+            className="w-full h-full max-h-60 2xl:max-h-96 object-cover"
           />
           <img
             src="/images/image7.jpg"

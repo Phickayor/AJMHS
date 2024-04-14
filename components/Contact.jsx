@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <div className="mx-auto w-10/12 flex flex-col py-10 space-y-6">
-      <div className="py-4 rounded-2xl bg-[#DADAFF] text-center">
+      <div className="py-14 rounded-2xl bg-[#DADAFF] text-center">
         <h1 className="font-semibold text-3xl leading-[55px] tracking-[0.3em]">
           Contact Us
         </h1>
