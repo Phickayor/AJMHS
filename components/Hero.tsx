@@ -1,7 +1,14 @@
+"use client"
 import React from "react";
 import { FaArrowDown } from "react-icons/fa";
 
 function Hero() {
+  const scrollToComponent = (componentId:string) => {
+    const element = document.getElementById(componentId);
+    element?.scrollIntoView({
+      behavior: "smooth"
+    });
+  };
   return (
     <div className="text-center py-8 md:py-12 xl:py-24 mx-auto w-11/12 xl:w-10/12">
       <div className="mx-auto lg:w-4/5 xl:w-3/5 flex flex-col gap-5">
@@ -14,7 +21,7 @@ function Hero() {
             Transforming Lives, One Patient at a Time
           </p>
         </div>
-        <button className="mx-auto group w-fit rounded-full bg-[#00005A] hover:bg-white hover:text-[#00005A] text-white px-5 py-4 flex gap-6 md:gap-10 justify-between">
+        <button onClick={()=>scrollToComponent("about")} className="mx-auto group w-fit rounded-full bg-[#00005A] hover:bg-white hover:text-[#00005A] text-white px-5 py-4 flex gap-6 md:gap-10 justify-between">
           <span className="self-center text-sm md:text-md group-hover:font-medium font-extralight">
             Start your Journey
           </span>

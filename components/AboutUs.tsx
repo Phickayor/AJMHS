@@ -2,7 +2,7 @@ import React from "react";
 import services from "@/utils/services.json";
 function AboutUs() {
   return (
-    <div className="mx-auto relative w-10/12 space-y-10">
+    <div id="about" className="mx-auto relative w-10/12 space-y-10">
       <div className=" flex flex-col gap-4 lg:gap-6">
         <h1 className="font-semibold text-xl tracking-[0.3em] md:text-2xl md:tracking-widest lg:text-3xl lg:leading-[55px] lg:tracking-[0.3em]">
           Get to know us better
