@@ -13,15 +13,35 @@ function Contact() {
           </p>
         </div>
         <form className="py-5 mx-auto w-10/12 space-y-6">
-          <div className="grid md:grid-cols-2 lg:gap-y-5 xl:gap-y-8 gap-3 text-[#DADAFF] [&>*]:bg-[#131725] xl:[&>*]:p-6 [&>*]:p-5 focus:[&>*]:outline-none [&>*]:rounded-xl">
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Email" required />
-            <input type="number" placeholder="Phone Number" required />
-            <input type="text" placeholder="City" required />
+          <div className="grid md:grid-cols-2 lg:gap-y-5 xl:gap-y-8 gap-3 text-[#DADAFF]">
+            <input
+              type="text"
+              placeholder="Your Name"
+              required
+              className="bg-[#131725] xl:p-6 p-5 focus:outline-none rounded-xl"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              required
+              className="bg-[#131725] xl:p-6 p-5 focus:outline-none rounded-xl"
+            />
+            <input
+              type="number"
+              placeholder="Phone Number"
+              className="bg-[#131725] xl:p-6 p-5 focus:outline-none rounded-xl"
+              required
+            />
+            <input
+              type="text"
+              placeholder="City"
+              required
+              className="bg-[#131725] xl:p-6 p-5 focus:outline-none rounded-xl"
+            />
             <input
               type="text"
               placeholder="Your message"
-              className="md:col-span-2"
+              className="md:col-span-2 bg-[#131725] xl:p-6 p-5 focus:outline-none rounded-xl"
             />
           </div>
           <button
