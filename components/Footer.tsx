@@ -17,15 +17,15 @@ function Footer() {
           </h1>
         </div>
         <div className="flex gap-2 md:gap-5 text-4xl text-[#001A74] self-start md:self-center">
-          <BiLogoFacebookCircle/>
+          <BiLogoFacebookCircle />
           <AiFillInstagram />
           <BiLogoWhatsapp />
         </div>
       </div>
 
       <p className="font-light md:text-lg lg:text-xl lg:leading-relaxed xl:text-2xl xl:leading-9 md:w-3/5">
-        Leverage agile frameworks to provide a robust synopsis for strategy
-        collaborative thinking to further the overall value proposition.
+        Empowering communities through accessible, compassionate healthcare,
+        fostering a healthier, more resilient future for all.
       </p>
     </div>
   );

@@ -2,31 +2,36 @@
   {
     "image": "/images/image1.jpg",
     "name": "Mental Nursing",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, "
+    "desc": "Expert care for mental health needs, promoting holistic well-being."
   },
   {
     "image": "/images/image2.jpg",
     "name": "Mobile Nursing",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, "
+    "desc": "Convenient healthcare delivered to your doorstep."
   },
   {
     "image": "/images/image3.jpg",
-    "name": "Home Embambling",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, "
+    "name": "Home Embalming",
+    "desc": "Dignified and respectful embalming services in the comfort of your home."
   },
   {
     "image": "/images/image4.jpg",
     "name": "Ambulance Services",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet."
+    "desc": "Rapid response and transportation with skilled medical professionals."
   },
   {
     "image": "/images/image5.jpg",
     "name": "Geriatric Nursing",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, "
+    "desc": "Specialized care tailored to the unique needs of the elderly."
   },
   {
     "image": "/images/image6.jpg",
+    "name": "Medical Outreach",
+    "desc": " Extending healthcare beyond boundaries, reaching underserved communities."
+  },
+  {
+    "image": "/images/image7.jpg",
     "name": "Recruitment of registered nurses",
-    "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam possimus neque obcaecati deleniti accusantium veritatis fuga error vero sequi eveniet, "
+    "desc": " Join our team of dedicated professionals, making a difference in healthcare."
   }
 ]

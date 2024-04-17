@@ -8,9 +8,9 @@ function AboutUs() {
           Get to know us better
         </h1>
         <p className="text-[131725] font-light text-lg leading-loose md:text-xl md:leading-loose lg:text-2xl lg:leading-relaxed xl:text-3xl xl:leading-[55px]">
-          Leverage agile frameworks to provide a robust synopsis for strategy
-          foster collaborative thinking to further the overall value
-          proposition.
+          We are committed to delivering compassionate and high-quality health
+          services, catering to diverse needs with professionalism and
+          integrity.
         </p>
       </div>
       <div className="absolute flex gap-8 overflow-auto w-full">
