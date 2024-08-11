@@ -17,9 +17,9 @@ function Footer() {
           </h1>
         </div>
         <div className="flex gap-2 md:gap-5 text-4xl text-[#001A74] self-start md:self-center">
-          <BiLogoFacebookCircle />
-          <AiFillInstagram />
-          <BiLogoWhatsapp />
+          <a href="https://m.facebook.com/100077097191946/"><BiLogoFacebookCircle /></a>
+          <a href="https://www.instagram.com/amenjetmedicals"><AiFillInstagram /></a>
+          <a href="https://wa.me/2348056505476"><BiLogoWhatsapp /></a>
         </div>
       </div>
 
