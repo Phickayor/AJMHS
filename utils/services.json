@@ -1,5 +1,15 @@
 [
   {
+    "image": "/images/image8.jpg",
+    "name": "Training of Nursing and Patient aides",
+    "desc": " Comprehensive training for nursing staff and patient aides, enhancing skills."
+  },
+  {
+    "image": "/images/image9.jpg",
+    "name": "Professional Care Home Services",
+    "desc": " Compassionate care at home, tailored to individual needs and preferences."
+  },
+  {
     "image": "/images/image1.jpg",
     "name": "Mental Nursing",
     "desc": "Expert care for mental health needs, promoting holistic well-being."
@@ -28,16 +38,6 @@
     "image": "/images/image6.jpg",
     "name": "Medical Outreach",
     "desc": " Extending healthcare beyond boundaries, reaching underserved communities."
-  },
-  {
-    "image": "/images/image8.jpg",
-    "name": "Training of Nursing and Patient aides",
-    "desc": " Comprehensive training for nursing staff and patient aides, enhancing skills."
-  },
-  {
-    "image": "/images/image9.jpg",
-    "name": "Professional Care Home Services",
-    "desc": " Compassionate care at home, tailored to individual needs and preferences."
   },
   {
     "image": "/images/image7.jpg",
