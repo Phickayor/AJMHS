@@ -15,7 +15,7 @@ function Contact() {
     setLoader(true);
     try {
       const url =
-        process.env.NEXT_PUBLIC_ENVORONMENT == "production"
+        process.env.NEXT_PUBLIC_ENVIRONMENT == "production"
           ? process.env.NEXT_PUBLIC_LIVE_URL
           : process.env.NEXT_PUBLIC_LOCAL_URL;
       const res = await fetch(`${url}/contact`, {
